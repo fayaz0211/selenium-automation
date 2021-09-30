@@ -141,3 +141,4 @@ class SeleniumCore:
                 driver.close()
                 driver.switch_to_window(handle)
                 break
+
