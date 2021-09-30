@@ -9,13 +9,13 @@ CURRENT_DIR = Path(__file__).parent
 sys.path.insert(0, str(CURRENT_DIR))  # for setuptools.build_meta
 
 setup(
-    name="selenium-utils",
+    name="selenium-automation",
     description="A python library to add selenium utils to apps",
-    url="https://github.com/fayaz0211/selenium-automation/tree/main/selenium_utils",
+    url="https://github.com/fayaz0211/selenium-automation",
     license="MIT",
-    packages=["selenium-utils"],
+    packages=["selenium-automation"],
     package_dir={"": "."},
-    package_data={"selenium-utils": ["py.typed"]},
+    package_data={"selenium-automation": ["selenium_core.py"]},
     python_requires=">=3.6",
     install_requires=[
         "selenium~=3.0",
