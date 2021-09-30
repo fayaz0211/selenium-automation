@@ -13,9 +13,9 @@ setup(
     description="A python library to add selenium utils to apps",
     url="https://github.com/fayaz0211/selenium-automation",
     license="MIT",
-    packages=["selenium-automation"],
+    packages=["selenium-utils"],
     package_dir={"": "."},
-    package_data={"selenium-automation": ["selenium_core.py"]},
+    package_data={"selenium-utils": ["selenium_core.py"]},
     python_requires=">=3.6",
     install_requires=[
         "selenium~=3.0",
